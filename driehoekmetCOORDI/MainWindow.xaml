@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" Background="#FFB900FF">
+            <TextBox x:Name="TX1" Height="15" Canvas.Left="111" TextWrapping="Wrap" Canvas.Top="20" Width="151" Background="#FF00FFE8"/>
+            <TextBox x:Name="TY1" Height="15" TextWrapping="Wrap" Canvas.Top="283" Width="151" Background="#FF00FFE8" Canvas.Left="111"/>
+            <Button x:Name="MijnKnop" Content="KLik Hier!" Height="93" Canvas.Top="114" Width="151" Click="MijnKnop_Click" Background="#FF2E00FF" Foreground="White" Canvas.Left="10"/>
+            <TextBlock Height="15" Canvas.Left="16" TextWrapping="Wrap" Text="&#x9;COO X1:" Canvas.Top="20" Width="95"/>
+            <TextBlock Height="15" Canvas.Left="16" TextWrapping="Wrap" Text="&#x9;COO Y2:" Canvas.Top="283" Width="95"/>
+        </Canvas>
+
     </Grid>
 </Window>
